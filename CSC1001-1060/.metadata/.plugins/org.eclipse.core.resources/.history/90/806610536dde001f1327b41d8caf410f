@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class IoPractise {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("How many people are here in the classroom?");
+		
+		int numInClass = input.nextInt();
+		
+		System.out.println("There are " + numInClass + " Here today...");
+
+	}
+
+}

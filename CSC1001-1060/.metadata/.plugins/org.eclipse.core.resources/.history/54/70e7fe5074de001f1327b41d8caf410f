@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class TempConversion {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		
+		System.out.println("What is the current tempurature in degrees fahrenheit?");
+		
+		double tempF = input.nextInt();
+		double tempC = tempF - 32 * 5/9
+		
+		System.out.print("The temp. in degrees Celsius is ");
+		System.out.println(tempC);
+		
+		System.out.print("The temp. in degrees Kelvin is ");
+		System.out.println();
+		
+
+		
+		
+		
+		
+		
+		
+	}
+
+} 

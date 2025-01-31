@@ -1,0 +1,18 @@
+
+public class Time {
+
+	public static void main(String[] args) {
+		
+		int hour = 12;
+		int minute = 39;
+		System.out.println("The current time is, ");
+		System.out.println(hour);
+		System.out.println(":");
+		System.out.println(minute);
+		System.out.println(".");
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

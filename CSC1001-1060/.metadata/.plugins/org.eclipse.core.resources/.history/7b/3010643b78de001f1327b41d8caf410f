@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class InteractiveGreeter {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Hello, what is your name?");
+		String fName = input.nextLine();
+		
+		System.out.println("Where are you from?");
+		String home = input.nextLine();
+			
+		System.out.println("How old are you?");
+		int age = input.nextInt();
+				
+		System.out.println("Well hello " + age + "year old " + fName + "from " + home);
+				
+		// TODO Auto-generated method stub
+
+	}
+
+}

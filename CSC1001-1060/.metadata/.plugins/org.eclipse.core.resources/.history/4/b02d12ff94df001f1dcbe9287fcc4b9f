@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Variables {
+
+	public static void main(String[] args) {
+		String line;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println(System.out);
+		line = input.nextLine();
+		System.out.println("You said " + line);
+	}}

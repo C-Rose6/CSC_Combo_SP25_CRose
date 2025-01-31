@@ -1,0 +1,13 @@
+
+public class SIsession {
+
+	public static void main(String[] args) {
+		
+		int age = 3000;
+				
+		System.out.println(age);
+		// TODO Auto-generated method stub
+
+	}
+
+}

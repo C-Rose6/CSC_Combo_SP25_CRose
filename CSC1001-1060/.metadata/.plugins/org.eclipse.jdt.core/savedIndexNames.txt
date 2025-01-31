@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+C:\Users\Connar\CSC1001-1060\.metadata\.plugins\org.eclipse.jdt.core
+1750929421.index
+2895242668.index
+1167254562.index
+844086845.index
+4264315398.index
+1865797976.index
+768668004.index
+3513043301.index
