@@ -1,30 +1,22 @@
+import java.util.Scanner;
 
 public class SIsession {
 
 	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
 		
-		int age = 10;
-		int time = 3;
-		String name = "Connor";
-		char favLetter = 'z';
-		double num = 6.3; 
-			
+		System.out.println("Enter first value.");
+		double var1 = input.nextDouble();
 		
-		
-		double num2 = age + num;
-		
-		System.out.println(num2);
-		
-		
-		double result = age / time;
+		System.out.println("Enter second value.");
+		double var2 = input.nextDouble();
+				
+		double addition = var1 + var2;
+				
+		System.out.println(addition);
 		
 		
-		System.out.println(age);
-		
-		System.out.println("my age is " + age);
-		System.out.printf("my age is %s and my name is %s\n" , age , name);
-		System.out.println(result);
-		// TODO Auto-generated method stub
+
 
 	}
 
