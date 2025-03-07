@@ -19,7 +19,7 @@ public class BottlesOfBeer {
 		beer(bottles);
 		
 		System.out.println("1 last bottle of beer on the wall, 1 last bottle of beer.");
-		System.out.println("Take it down n' pass it 'round, time to go get some more beer for us all!");
+		System.out.println("Take it down n' pass it 'round, time to go get " + bottles + " more bottles of beer for the wall!");
 	}
 	public static int beer(int count) {
 		int sum = 0;
