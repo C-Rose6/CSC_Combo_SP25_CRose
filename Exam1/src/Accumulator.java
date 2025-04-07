@@ -6,7 +6,7 @@ public class Accumulator {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Enter a number");
-		int num = 1;
+		int num = -1;
 		int sum = 0;
 
 		while (num != 0) {
