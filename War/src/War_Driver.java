@@ -3,8 +3,11 @@ public class War_Driver {
 
 	public static void main(String[] args) {
 		Deck deck = new Deck();
+		
 		deck.shuffle();
 		
+	
+	
 		Pile p1 = new Pile();
 		p1.addDeck(deck.subDeck(0,  25));
 		
