@@ -20,7 +20,7 @@ public class ArrayReversal {
 				break;
 			}
 		}
-		System.out.println(Arrays.toString(myArray));	
+		//System.out.println(Arrays.toString(myArray));	
 		int[] newArray = new int[count -1];
 		for (int i = 0; i < count -1; i++)
 			newArray[i] = myArray[i];

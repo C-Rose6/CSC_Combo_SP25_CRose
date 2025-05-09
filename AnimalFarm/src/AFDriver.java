@@ -24,7 +24,7 @@ public class AFDriver {
 		System.out.println("Weight:");
 		int weight = input.nextInt();
 		System.out.println("Name:");
-		String name = input.nextLine();
+		String name = input.next();
 		if(type.equals("Pig")) {
 			input.nextLine();
 			System.out.println("Color:");
