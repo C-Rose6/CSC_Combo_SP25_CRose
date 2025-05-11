@@ -1,43 +1,33 @@
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class EnkryptionDriver {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-	
+		
 		int key = 6;
 	
 		System.out.println("Enter a string for encryption:");
-		String message1 = sc.next();
+		String message = sc.next();
 		System.out.println("Enter the key");
 		int userKey = sc.nextInt();
-		Enkrypt enkrypt = new Enkrypt(message1);
+		Enkrypt enkrypt = new Enkrypt(message);
+		String enkryptedMessage = enkrypt.getKryptStr();
+		Dekrypt dekrypt = new Dekrypt(enkryptedMessage);
 
 		if (userKey == key) {
 			
-			System.out.println(enkrypt);
+			System.out.println("The encrypted message is: " + enkrypt);
+			System.out.println();
 		}
-	}
-//		System.out.println(ascii(enkrypt));
-//		
-//	}
-
-//	public static int[] ascii(Object object) {
-//		int l = string.length();
-//		int convert;
-//		int[] decArr = new int[l];
-//		for (int i = 0; i < l; i++) {
-//			convert = string.charAt(i);
-//			decArr[i] += convert;
-//			if (decArr[i] % 2 == 0) {
-//				decArr[i] = decArr[i] / 2;
-//			} else {
-//				decArr[i] = decArr[i] - 13;
-//			}
-//
-//		}
-//		return decArr;
-//	}
+		
+		System.out.println("Enter key to dekrypt:");
+		int key2 = sc.nextInt();
+		
+		if(key2 == key) {
+			
+			System.out.println("The decryted message is: " + dekrypt);
+		}
+		
+	}	
 }
