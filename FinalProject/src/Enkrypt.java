@@ -46,8 +46,6 @@ public class Enkrypt {
 		}
 		return sb.toString();
 	}
-	
-	
 
 	public String getKryptStr() {
 		return this.kryptStr;
